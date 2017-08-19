@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Overwatch 1v1 Me BRO!!!!!</title>
+	<link rel="stylesheet" type="text/css" href="assets/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"-->
+	
+	 <!-- Bootstrap File -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"-->
+
+	<!-- Latest compiled and minified JavaScript -->
+	<!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+<body>
+<div class="container">
+	<div class="row hero-selection">
+		<!--Hero choices go here-->
+		<div class="panel-panel-default"></div>
+		<div class="col-md-3 heroClass" id="mccreePlace">
+			<img src="assets/mcCreePic.jpg" alt="Jesse McCree" class="img-thumbnail hero-port" id="mcCree-picture" value="0">
+			<h2 class="hp text-center" id="mccree-hp"></h2>
+		</div>
+		<div class="col-md-3 heroClass" id="widowmakerPlace">
+			<img src="assets/widowmakerPic.jpg" alt="Widowmaker" class="img-thumbnail hero-port" id="widow-picture" value="1">
+			<h2 class="hp text-center" id="widow-hp"></h2>
+		</div>
+		<div class="col-md-3 heroClass" id="winstonPlace">
+			<img src="assets/winstonPic.jpg" alt="Winston" class="img-thumbnail hero-port" id="winston-picture" value="2">
+			<h2 class="hp text-center" id="winston-hp"></h2>
+		</div>
+		<div class="col-md-3 heroClass" id="reaperPlace">
+			<img src="assets/reaperPic.jpg" alt="Reaper" class="img-thumbnail hero-port" id="gab-picture">
+			<h2 class="hp text-center" id="gab-hp" value='3'></h2>
+		</div>
+	</div>
+	<div class="row">
+		<!--Selected champion goes here-->
+		<div class="col-md-5 heroChampion">
+		<h1 class="text-center plack" id="hero">Your hero!</h1>
+			<div>
+				<img src="" alt="Your hero will be here!" class="img-thumbnail combatants" id="choosen-one">
+				<h1 id="choosen-hp"></h1>
+			</div>
+		</div>
+		<!--attack button here-->
+		<div class="col-md-2">
+			 <button id="button-attack" class="btn btn-danger"><h1>Attack</h1></button>
+		</div>
+		<!--Selected opponent goes here-->
+		<div class="col-md-5 opponentHere text-center">
+		<h1 class="text-center plack" id="target">Choosen Opponent</h1>
+			<div>
+				<img src="" alt="Your opponent will be here!" class="img-thumbnail combatants" id="choosen-target">
+				<h1 id="target-hp"></h1>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 text-center" id="results"></div>
+	</div>
+
+
+
+
+
+
+
+</div>
+</body>
+<script type="text/javascript" src="game.js"></script>
+</html>
